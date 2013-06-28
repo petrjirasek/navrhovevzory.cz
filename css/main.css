@@ -13,6 +13,65 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-color: rgb(245, 245, 245);
+    font-size: 15px;
+    font-family: "Verdana";
+    padding: 0px 0px 50px 0px;
+}
+
+div#page {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+h1 {
+    font-family: "Tahoma";
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0px 10px 0px;
+    padding: 0px;
+}
+
+h1 span.blue {
+    color: #06A2CB;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: "Arial Narrow";
+    margin:  15px 0px 0px 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.lead {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+a {
+    color: #06A2CB;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+div.column {
+    width: 33%;
+    float: left;
 }
 
 ::-moz-selection {
