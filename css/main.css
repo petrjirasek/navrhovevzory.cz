@@ -280,3 +280,28 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/* ==========================================================================
+   Responsive styles
+   ========================================================================== */
+
+@media (max-width: 1000px) {
+    div#page {
+        width: 97%;
+    }
+}
+
+@media (max-width: 600px) {
+    div.column {
+        width: 100%;
+    }
+    div.column h2 {
+        color: #444;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+}
